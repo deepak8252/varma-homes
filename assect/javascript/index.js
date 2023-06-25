@@ -7,10 +7,11 @@ $(document).ready(function(){
         loop:true,
         autoplay:true,
         responsiveClass:true,
+        dots:false,
         responsive:{
             0:{
                 items:1,
-                nav:true
+                nav:false,
             },
           
             600:{
@@ -21,7 +22,7 @@ $(document).ready(function(){
             },
             1000:{
                 items:3,
-                nav:true,
+                nav:false,
                 loop:false,
                 margin:15,
 
