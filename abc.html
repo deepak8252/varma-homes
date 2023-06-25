@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./assect/javascript/index.js"></script>
+    <style>
+    .box{
+      width: 30%;
+      height: 30vh;
+      background-color: red;
+      border: 2px solid green;
+
+    }
+    .container{
+      width: 90%;
+      display: flex;
+    }
+    @media screen and (max-width:1200px) {
+       .box{
+         background-color: green;
+         height: 100%;
+         width: 100%;
+         color: white;
+       }
+    }
+    @media screen  and (max-width:900px){
+     .box{
+      width: 100%;
+      border: 2px solid red;
+      overflow: hidden;
+      padding: 2%;
+     margin: auto;
+
+   
+     } 
+     .btn{
+             width: 100px;
+             text-align: center;
+             height: 50px;
+             align-items: center;
+     }
+
+     .container{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+     }
+     .btn{
+             width: 100px;
+             text-align: center;
+             height: 50px;
+     }
+    }
+    </style>
+</head>
+<body>
+  <input type="text" name="" id="abc">
+  <button onclick="search()">hello</button>
+   <div class="container">
+  <div class="box"> 
+<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique temporibus voluptatum hic odio iste mollitia aspernatur totam doloribus. Animi, sed? Commodi molestias animi minus quidem repudiandae iure placeat error illo? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis magnam provident dignissimos, architecto molestiae dolore ratione ut dicta sint enim est qui omnis iusto mollitia corporis nesciunt veniam eius facere!</p>
+</div>
+<div class="box">
+   <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique temporibus voluptatum hic odio iste mollitia aspernatur totam doloribus. Animi, sed? Commodi molestias animi minus quidem repudiandae iure placeat error illo? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis magnam provident dignissimos, architecto molestiae dolore ratione ut dicta sint enim est qui omnis iusto mollitia corporis nesciunt veniam eius facere!</p>
+     </div>
+     <div class="box">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique temporibus voluptatum hic odio iste mollitia aspernatur totam doloribus. Animi, sed? Commodi molestias animi minus quidem repudiandae iure placeat error illo? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis magnam provident dignissimos, architecto molestiae dolore ratione ut dicta sint enim est qui omnis iusto mollitia corporis nesciunt veniam eius facere!</p>
+        </div>
+        <input type="btn" name="" id="" value="send" class="btn">
+  </div>
+  
+</body>
+</html>
+<script>
+  function search(){
+    var data=[45,788,87,"ram",5775,988];
+    var item=document.getElementById("abc").value;
+    var index=undefined;
+    for(var i=0;i<data.length;i++){
+ if(data[i]===item){
+  index=i;
+  break;
+ }
+document.write(index);
+    }
+  }
+</script>

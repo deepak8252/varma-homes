@@ -1,0 +1,652 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+font-family: ' Garamond', serif;
+font-size: 21px;
+}
+
+/* header section css start*/
+.navbar-nav .nav-item .nav-link:hover{
+    color: red;
+    transition: all 0.4s;
+}
+.navbar{
+position: sticky;
+top:0px;
+z-index: 1;
+}
+.navbar-nav .dropdown:hover .dropdown-menu{
+    display: block;
+    background-color: #fff;
+    transition: all .8s;
+    padding-left: 4%;
+
+}
+.navbar-nav .dropdown .dropdown-item:hover,.offcanvas-body .dropdown .dropdown-item:hover {
+    color: rgb(204, 66, 66);
+    background-color: none;
+    padding-left: 54px;
+    transition: all 0.5s;
+}
+ .navbar .btn1{
+transition: 2s all;
+color:white;
+background-color: red;
+margin-left: 13px;
+border: 0px;
+}
+.navbar .btn1:hover{
+    background-color: black;
+    color: white;
+}
+
+/* header section css end*/
+/*right menu start css*/
+.right-menu{
+    margin-top:5%;
+}
+@media screen and (min-width:670px) {
+     .right-menu{
+        display: block;
+     }
+}
+/*right menu end css*/
+/* slider section css start*/
+.carousel-indicators[data-bs-target="#carouselExampleIndicators"]{
+    width: 250px;
+    height: 34px;
+    border-radius: 50%;
+}
+/* slider section css end*/
+/*explore section css start*/
+.Explore h4{
+ font-weight: bold;
+}
+.Explore p{
+    margin: 12px 20px;
+    font-weight: 400;
+    color: rgb(74, 70, 70);
+    line-height: 38px;
+    margin: 30px;
+}
+.Explore .item img{
+    
+    padding: 20px;
+    border: 1px solid rgb(199, 195, 195);
+}
+.Explore .card-body h5 img{
+    width: 50%;
+    border:none;
+    align-items: center;
+    margin: auto;
+}
+/* btn css start*/
+.Explore .btn:hover{
+    background-color:rgb(186, 30, 30);
+    color:#fff;
+    transition: all 0.7s; 
+}
+
+/*explore section css end*/
+/* builders section css  start*/
+.builders{
+    background-image: url(./slider-2.webp);
+    background-size: cover;
+     background-position: 100%;
+     
+}
+.mask{
+    background-color:rgba(212, 63, 63, 0.8);
+    margin: 0;
+}
+.builders p,h5,h6{
+     padding-left: 10%;   
+}
+.builders p{
+    font-size: 20px;
+}
+.builders button{
+    margin-left: 10%;
+    width: 150px;
+    text-align: center;
+    background-color:rgba(212, 63, 63, 0.8);
+    color: #fff;
+    padding:1%;
+    margin-bottom: 1%;
+}
+/* builders section css  end*/
+/*handing section start*/
+.handing h4{
+    font-weight: bold;
+    font-size: 28px;
+}
+.dis button{
+    border: none;
+    color: red;
+}
+ .dis button:hover{
+    color: rgb(0, 0, 0);
+    border: none;
+    transition: all .6s;
+}
+.dis{
+    display: flex;
+    justify-content: space-between;
+}
+/*handing section end*/
+/* profile-bg css start*/
+.profile-bg{
+    background-image: url(./1.jpg);
+    background-position: center;
+    background-position: cover;
+    background-repeat: no-repeat;
+}
+
+.profile-bg1{
+    background-color: rgba(254, 0, 0, .5);
+}
+.profile-bg1 h4{
+    
+    padding-top: 8%;
+    align-items: center;
+    padding-bottom: 10%;
+    font-size: 44px;
+    font-weight: 700;
+    padding-left: 15%;
+}
+/* profile-bg css end*/
+
+.img-slider img{
+    width: 300px;
+
+
+}
+/* promise  section css start */
+.promise{
+    margin-top: 10%;
+}
+.promise img{
+    width: 300px;
+    align-items: center;
+
+
+}
+.promise .box{
+ width: 100%;
+ height: 40vh;
+ margin: auto;
+ /*border: 5px solid red;*/
+ position:relative;
+ box-shadow:  1px 0px 2px 2px;
+ 
+ 
+}
+.promise .box1{
+    transform: translate(5px,-160px);
+    width: 90%;
+    background-color: rgb(228, 228, 228);
+    box-shadow: none;
+    
+}
+
+/* promise  section css end*/
+/* blog section css start*/
+.blog{
+    /* background-color: rgb(212, 230, 230); */
+    position: relative;
+   
+}
+
+.blog .box-2{
+    background-color:white;
+    width: 90%;
+    transform: translate(5px ,-67px);
+    margin: auto;
+}
+.btn:hover{
+    background-color: rgb(21, 20, 20);
+    color: white;
+    transition: all .7s;
+}
+/* blog section css end*/
+/* dream section start*/
+.dream{
+    margin-top: 10%;
+    
+}
+/* dream section end*/
+/* flower section css start*/
+/* .flower{
+    background-image: url(./flo.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    width: 50%;
+    height: 30vh;
+    background-position:center;
+    margin-top: 3%;
+} */
+/* flower section css end*/
+/* verma  section start*/
+.verma{
+    background-color: rgb(236, 218, 197);
+    margin: 0 auto;
+}
+/* verma  section end*/
+.flat{
+    background-color: rgb(238, 242, 247);
+    
+}
+
+/*leader section start*/
+.leader{
+    background-color: rgb(239, 239, 237);
+}
+/*leader section end css*/
+/* m-director section start*/
+.m-director .img{
+    border-radius: 50%;
+}
+/* m-director section end*/
+/* text-section css start*/
+.tick{
+     margin-top: 2%;
+}
+/* text-section css end*/
+/*varmacare start css*/
+.varmacare{
+    width: 100%;
+    height: 30vh;
+    background:url(../img/home.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+/*varmacare  css end*/
+/* mask1 css start*/
+.mask1{
+    background-color:rgba(152, 25, 25, 0.6);
+    width: 100%;
+    height: 30vh;
+}
+/* mask1 css end*/
+/*box css start*/
+.box{
+    /* background-color: azure; */
+    text-align: center;
+    margin: 2px;
+
+}
+
+
+/*box css end*/
+/* img flower css start*/
+.img-flower{
+    background-image: url(../img/find-your-home.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+}
+/* img flower css end*/
+/* testimonals section css start*/
+.testimonals{
+    background:linear-gradient(red,green,blue);
+    width: 100%;
+    height: 30vh;
+}
+/* testimonals section css end*/
+/* testimonals image css*/
+/* clientimage1 start*/
+.client-img1{
+    position: relative;
+    background: url(../img/client1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 31%;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;
+}
+.client-img1 .img{
+    background-color: rgba(1,2,4, .9);
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: auto;
+    margin: 0%;
+    position: absolute;
+    left: -6500px;
+
+
+}
+
+.client-img1:hover .img{
+    transition: all 0.02s;
+    left: 0;
+}
+.client-img h4{
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+/* @ media query client-img start*/
+@media screen and (max-width:899px) {
+     .client-img1{
+        width: 90%;
+        align-items: center;
+     }
+}
+
+/* @ media query client-img end*/
+/* client-image1 css end*/
+/* client-image2 css start*/
+.client-img2{
+    position: relative;
+    background: url(../img/client2.jpeg);
+   /* background-position: center;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width: 31%;
+    background-size: cover;
+    position: relative;
+    cursor: pointer;*/
+}
+.client-img2 .img{
+    background-color: rgba(1,2,4, .8);
+    width: 100%;
+    height: 40vh;
+    background-position: center;
+    background-size: auto;
+    margin: 0%;
+    position: absolute;
+    left: -7500px;
+}
+.client-img2:hover .img{
+    transition: all 0.1s;
+    left: 0;
+}
+
+/* @ media query client-img start*/
+
+/* @ media query client-img end*/
+.client-img h4{
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+/* client-image2css end*/
+/* client-img3 css start*/
+.client-img3{
+    background-image: url(../img/client3.jpg);
+    height: 40vh;
+}
+.client-img h4{
+    font-size: 20px;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+}
+/* client-img3 css end*/
+.client-img h4{
+    background: transparent;
+
+}
+/* client-img-4*/
+.client-img4{
+    background: url(../img/client4.jpeg);
+}
+/* client-img-4 end*/
+/* client-img5*/
+.client-img5{
+    background: url(../img/client7.jpeg);
+}
+/* client-img5 css end*/
+/* client-img6 css end*/
+.client-img6{
+    background:url(../img/client8.jpeg);
+}
+/* client-img6 end*/
+/* testimonals image css end*/
+/* gallery css start*/
+.gallery{
+    background:url(../img/camera.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+}
+/* gallery css end*/
+/* image section css start*/
+.images .image{
+    background: url(../img/1669272272-varma-rhythm.jpg);
+    width:23%;
+    margin-left: 1.5%;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:hard-light;
+    min-height: 34vh;
+    position: relative;
+    margin-bottom: 2%;
+}
+.images .image-1{
+    background-image: url(../img/1669272289-varma-urban.jpg);
+}
+/* image-2 css*/
+.images .image-2{
+    background-image: url(../img/1669272289-varma-urban.jpg);
+}
+/* image-2 css*/
+/* image-3 css*/
+.images .image-3{
+    background-image: url(../img/1673264839-legacy-gallery-2.jpg);
+}
+/* image-3 css end*/
+/* image-4 css start*/
+.images .image-4{
+    background-image: url(../img/1673264861-legacy-gallery-5.jpg);
+}
+.images .image-5{
+    background-image: url(../img/1673264945-legacy-gallery-3.jpg);
+}
+.images .image-6{
+background-image: url(../img/varma8.jpg);
+}
+.images .image-7{
+    background-image: url(../img/varma9.jpg);
+}
+.images .image-9{
+    background-image: url(../img/varma11.jpg);
+}
+.images .image-10{
+    background-image: url(../img/varma13.jpg);
+}
+.images .image-11{
+    background-image: url(../img/varma14.jpg);
+}
+.images .image-12{
+    background-image: url(../img/varma12.jpg);
+}
+.images .image-13{
+    background-image: url(../img/varma15.jpg);
+}
+.images .image-14{
+    background-image: url(../img/varma16.jpg);
+}
+.images .image-15{
+    background-image: url(../img/varma17.jpg);
+}
+.images .image-16{
+    background-image: url(../img/varma18.jpg);
+}
+.images .image-17{
+    background: url(../img/varma19.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.images .image-18{
+    background: url(../img/varma20.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.images .image-19{
+    background: url(../img/varma21.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.images .image-20{
+    background: url(../img/varma22.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.images .image-21{
+    background: url(../img/varma23.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.images .image-22{
+    background: url(../img/varma24.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.images .image-23{
+    background: url(../img/varma25.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.images .image-24{
+    background: url(../img/varma26.jpg);
+    background-position: center;
+    background-size: cover;
+}
+/* image-4 css end*/
+/* image section css end*/
+/* image-inside section start*/
+.images .img-inside{
+    background-color: rgba(1,2,4, .8);
+    width: 100%;
+   min-height: 34vh;
+    background-position: center;
+    background-size: 100 100;
+    margin: 0%;
+    position: absolute;
+    left: -3000px;
+    cursor: pointer;
+}
+.images .image:hover .img-inside{
+    left: 0;
+    /* transition: all .1s; */
+}
+/* media query images start*/
+@media screen and (max-width:989px) {
+    .images .image{
+        width:30%;margin: 1%;
+
+    }
+}
+@media screen  and (max-width:899px){
+    .images .image{
+        width:30%;
+        align-items: center;
+        margin: 1%;
+
+    }
+}
+@media screen  and (max-width:599px){
+    .images .image{
+        width:80%;
+        align-items: center;
+        margin-bottom: 1%;
+        margin-left: 10%;
+
+    }
+}
+/* media query images end*/
+/* image-inside section start*/
+/* contact page css start*/
+.contact{
+    background-image: url(../img/hand-typing-laptop-blur-supermarket-screenm-woman-screen-118287383.jpg);
+    height: 30vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*from section css start*/
+.from{
+    background-color: rgb(255, 247, 237);
+}
+/*from section css end*/
+/* contact page css end*/
+
+/* news page css start*/
+/*news section css start*/
+.news{
+    background:url(../img/internet.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 30vh;
+    
+}
+.news-img{
+    background: url(../img/1678343002-logo-reveal-1.jpg);
+    width: 23%;
+    background-position: center;
+    background-size: cover;
+    min-height: 30vh;
+    margin: 1%;
+    position: relative;
+}
+.news-img-2{
+    background: url(../img/1678343032-logo-reveal-4.jpg);
+    width: 23%;
+    background-position: center;
+    background-size: cover;
+    min-height: 30vh;
+    margin: 1%;
+}
+.img-outer{
+    background-color: rgba(1,2,4, .8);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: 100 100;
+    margin: 0%;
+    position: absolute;
+    left: -3000px;
+    cursor: pointer;
+}
+.news-img:hover .img-outer{
+    
+    left: 0;
+}
+/*news section css end*/
+/* news page css end*/
+/* blog page css start*/
+/* blog css start*/
+.blog{
+    background: url("/assect/img/keyboard.jpg");
+    width: 100%;
+    display: flex;
+    height: 26vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* blog css end*/
+/*blog-image css start*/
+.blog-image{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blog-image .card-body{
+    position: relative;
+    top: -100px;
+    background-color: aliceblue;
+    width: 90%;
+}
+/*blog-image css end*/
+/* blog page css end*/
